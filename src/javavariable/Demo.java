@@ -1,5 +1,8 @@
 package javavariable;
-public class Demo {
+
+import method.Person;
+
+public class Demo extends Person{
 	
 	public static void main(String[] args) {
 		មនុស្ស person=new មនុស្ស();
@@ -159,7 +162,12 @@ public class Demo {
 	        	}*/
 	        	
 	        	
-	        
+	   
+		
+		/*Person p=new Person();
+		p.*/
+		
+		
 	}
 
 }
