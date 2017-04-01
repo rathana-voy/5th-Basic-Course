@@ -16,6 +16,8 @@ public class LocalClass {
 			public void restult(){
 				if(this.speek.equals(speeker)){
 					System.out.println("칙");
+				}else{
+					System.out.println(this.speek);
 				}
 				
 			}
@@ -26,6 +28,15 @@ public class LocalClass {
 	
 	public static void main(String[] args) {
 		new LocalClass().speek("book");
+		
+	}
+	
+	class TestB{
+		
+	}
+	
+	class TestBook extends TestB{
+		
 	}
 	
 }
