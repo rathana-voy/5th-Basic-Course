@@ -10,9 +10,13 @@ public class Employee {
 	private String gender;
 	private int age;
 	
-	public void display(){
-		System.out.println();
+	Employee(){
+	
 	}
+	public void display(){
+		System.out.println( age +gender );
+	}
+
 	class InnerEmployee{
 		
 		public InnerEmployee() {}
