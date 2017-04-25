@@ -12,4 +12,12 @@ public class Car {
 	public void Display(){
 		System.out.println(this.machine.getFource());
 	}
+	
+	class Bus extends Car{
+
+		public Bus(Machine m) {
+			super(m);
+		}
+		
+	}
 }
